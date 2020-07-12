@@ -1,0 +1,26 @@
+@url=http://localhost:3000/admin/api
+@url2=http://localhost:3000/web/api
+@json=Content-Type: application/json
+
+### 获取所有分类
+GEt {{url}}/categories
+
+### 增加分类
+POST  {{url}}/categories
+{{json}}
+
+{
+    "name":"denghao"
+}
+
+# ### 新闻资讯
+# GET  {{url2}}/newslist
+
+# ###获取英雄数据
+# GET {{url2}}/heroes
+
+###获取英雄列表
+GET {{url2}}/heroList
+
+###获取文章
+GET {{url2}}/article/5f0a90d0a9edc5235830e023
