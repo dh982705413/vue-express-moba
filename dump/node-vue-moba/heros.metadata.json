@@ -1,0 +1,1 @@
+{"options":{},"indexes":[{"v":{"$numberInt":"2"},"key":{"_id":{"$numberInt":"1"}},"name":"_id_","ns":"node-vue-moba.heros"}],"uuid":"d6aab77d543547e389614125b087e078"}
